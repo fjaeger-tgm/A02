@@ -15,6 +15,8 @@ print(letters)
 
 
 class Threadclass(threading.Thread):
+    """ :param textB: Buchstaben die zu verändern sind von dem Thread
+        :param anzahlThreads: Die Threadnummer"""
     def __init__(self, textB, anzahlThreads):
         """Konstruktor"""
         threading.Thread.__init__(self)
